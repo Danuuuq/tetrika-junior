@@ -9,4 +9,34 @@
 Примечание:  
 анализ текста производить не нужно, считается любая запись из категории (в ней может быть не только название, но и, например, род)
 
+### Решение  
+Создайте виртуальное окружение Python >= 3.9:  
 
+`bash
+python -m venv venv
+`
+
+Активируйте виртуальное окружение:  
+
+*Windows*  
+`bash
+. venv/Scripts/activate  
+`
+*Linux/MacOS*  
+`bash
+. venv/bin/activate  
+`
+
+Установите зависимости:  
+
+`bash
+pip install -r requirements.txt  
+`
+
+Запустите скрипт:  
+
+`bash
+python solution.py  
+`
+
+После выполнения будет создан файл `animals_by_letter.csv` с данными.  
