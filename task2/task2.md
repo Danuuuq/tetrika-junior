@@ -12,31 +12,31 @@
 ### Решение  
 Создайте виртуальное окружение Python >= 3.9:  
 
-`bash
+```bash
 python -m venv venv
-`
+```
 
 Активируйте виртуальное окружение:  
 
 *Windows*  
-`bash
-. venv/Scripts/activate  
-`
+```bash
+. venv/Scripts/activate
+```  
 *Linux/MacOS*  
-`bash
-. venv/bin/activate  
-`
+```bash
+. venv/bin/activate
+```  
 
 Установите зависимости:  
 
-`bash
-pip install -r requirements.txt  
-`
+```bash
+pip install -r requirements.txt
+```
 
 Запустите скрипт:  
 
-`bash
-python solution.py  
-`
+```bash
+python solution.py
+```
 
 После выполнения будет создан файл `animals_by_letter.csv` с данными.  
