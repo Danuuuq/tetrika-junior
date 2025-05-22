@@ -85,8 +85,9 @@ def test_int_float() -> None:
         except TypeError:
             pass
 
-test_two_int()
-test_two_bool()
-test_two_float()
-test_two_str()
-test_int_float()
+if __name__ == "__main__":
+    test_two_int()
+    test_two_bool()
+    test_two_float()
+    test_two_str()
+    test_int_float()
